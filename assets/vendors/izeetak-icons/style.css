@@ -121,3 +121,6 @@
 .icon-phone-call:before {
   content: "\e91f";
 }
+.icon-clock:before {
+  content: "\e94f";
+}

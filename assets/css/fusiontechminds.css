@@ -487,9 +487,11 @@ canvas {
     float: left;
     padding-top: 33px;
     padding-bottom: 32px;
-    margin-right: 165px;
+    margin-right: 140px;
 }
-
+.main-menu-wrapper__logo img{
+    max-height: 75px;
+}
 .main-menu-wrapper__main-menu {
     position: relative;
     display: block;
@@ -1445,9 +1447,9 @@ canvas {
     transform: translateY(120px);
     transition-delay: 1000ms;
     transition: transform 2000ms ease, opacity 2000ms ease;
-    font-size: 90px;
-    line-height: 90px;
-    letter-spacing: -0.02em;
+    font-size: 60px;
+    line-height: 60px;
+    /* letter-spacing: -0.02em; */
     z-index: 30;
 }
 
@@ -1782,7 +1784,7 @@ canvas {
     position: relative;
     display: block;
     padding: 0 0 120px;
-    margin-top: -125px;
+    margin-top: 50px;
 }
 
 .feature-one__top {
@@ -3105,7 +3107,7 @@ canvas {
     display: block;
     max-width: 1595px;
     width: 100%;
-    background-color: var(--thm-extra);
+    background-color: var(--thm-primary);
     border-radius: var(--thm-bdr-radius);
     margin: 0 auto;
     z-index: 1;
@@ -3120,7 +3122,7 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: var(--thm-extra);
+    background-color: var(--thm-primary);
     background-blend-mode: luminosity;
     opacity: 0.15;
     z-index: -1;
@@ -6680,4 +6682,7 @@ canvas {
 
 .business-growth-two .business-growth__right-text {
     color: var(--thm-gray);
+}
+.footer-widget__about-logo img{
+    max-height: 60px;
 }
