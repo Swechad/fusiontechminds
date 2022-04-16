@@ -1,48 +1,15 @@
 const header = document.getElementById("header");
 const footer = document.getElementById("footer");
 const mobileWrapper = document.getElementById("mobileNav")
-const headerContent = ` <div class="main-header__top clearfix">
-<div class="main-header__top-inner clearfix">
-    <div class="main-header__top-left">
-        <ul class="list-unstyled main-header__top-address">
-            <li>
-                <div class="icon">
-                    <span class="icon-pin"></span>
-                </div>
-                <div class="text">
-                    <p>Plot No.7, Jyothi Colony,  AOC Center, Hyderabad. </p>
-                </div>
-            </li>
-            <li>
-                <div class="icon">
-                    <span class="icon-email"></span>
-                </div>
-                <div class="text">
-                    <p><a href="mailto:info@fusiontechminds.com">info@fusiontechminds.com</a></p>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="main-header__top-right">
-        <div class="main-header__top-right-text">
-            <p><span>Join with us:</span> We’ll help you transform for success</p>
-        </div>
-        <div class="main-header__top-right-social">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-    </div>
-</div>
-</div>
+const headerContent = `
 <nav class="main-menu clearfix">
 <div class="main-menu-wrapper clearfix">
     <div class="main-menu-wrapper-inner clearfix">
-        <div class="main-menu-wrapper__left clearfix">
+       
             <div class="main-menu-wrapper__logo">
                 <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
             </div>
-            <div class="main-menu-wrapper__main-menu">
+            <div class="main-menu-wrapper__main-menu float-right">
                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                 <ul class="main-menu__list">
                     <li><a href="index.html">Home</a></li>
@@ -53,18 +20,7 @@ const headerContent = ` <div class="main-header__top clearfix">
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-        </div>
-        <div class="main-menu-wrapper__right">
-            <div class="main-menu-wrapper__call">
-                <div class="main-menu-wrapper__call-icon">
-                    <img src="assets/images/shapes/phone-icon.png" alt="">
-                </div>
-                <div class="main-menu-wrapper__call-number">
-                    <p>Have any questions?</p>
-                    <h5><a href="tel:+91 8008794349">Call us: +91 8008794349</a></h5>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </div>
 </nav>`
@@ -81,12 +37,9 @@ const footerContent = ` <div class="site-footer__top">
                         <a href="index.html"><img src="assets/images/resources/footer-logo.png"
                                 alt=""></a>
                     </div>
-                    <p class="footer-widget__about-text">At Fusion Tech Minds, our customer-centric approach helps us craft superior experiences for you. </p>
-                    <div class="footer-widget__about-social">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
+                    <p class="footer-widget__about-text">At Fusion Tech Minds, our customer-centric approach helps us craft superior experiences for you. We work closely with you to understand your business-critical needs and add
+                    holistic value to accelerate the achievement of your business goals.</p>
+                   
                 </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-3 wow fadeInUp" data-wow-delay="200ms">
@@ -105,11 +58,7 @@ const footerContent = ` <div class="site-footer__top">
             <div class="col-xl-3 col-lg-3 col-md-3 wow fadeInUp" data-wow-delay="300ms">
                 <div class="footer-widget__column footer-widget__contact">
                     <h3 class="footer-widget__title">Contact</h3>
-                    <p class="footer-widget__contact-text">
-                        Plot No.7, Jyothi Colony<br>
- AOC Center, Hyderabad<br>
- Telangana, India
-</p>
+                   
                     <ul class="list-unstyled footer-widget__contact-list">
                         <li>
                             <div class="icon">
@@ -130,6 +79,11 @@ const footerContent = ` <div class="site-footer__top">
                             </div>
                         </li>
                     </ul>
+                    <div class="footer-widget__about-social mt-5">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
                 </div>
             </div>
           
@@ -183,7 +137,7 @@ const mobileNavWrapper =` <div class="mobile-nav__overlay mobile-nav__toggler"><
         <div class="mobile-nav__social">
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-facebook-square"></a>
-            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
         </div>
     </div>
 </div>`

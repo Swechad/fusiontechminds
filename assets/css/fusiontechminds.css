@@ -485,17 +485,17 @@ canvas {
 .main-menu-wrapper__logo {
     position: relative;
     float: left;
-    padding-top: 33px;
-    padding-bottom: 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-right: 140px;
 }
 .main-menu-wrapper__logo img{
-    max-height: 75px;
+    max-height: 60px;
 }
 .main-menu-wrapper__main-menu {
     position: relative;
     display: block;
-    float: left;
+    float: right;
 }
 
 .main-menu-wrapper__right {
@@ -625,8 +625,8 @@ canvas {
 
 .main-menu .main-menu__list>li,
 .stricky-header .main-menu__list>li {
-    padding-top: 33px;
-    padding-bottom: 33px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     position: relative;
 }
 
@@ -3175,7 +3175,7 @@ canvas {
     position: relative;
     display: block;
     background-color: #1b1825;
-    margin-top: -120px;
+    /* margin-top: -120px; */
 }
 
 .site-footer__top {
@@ -3187,7 +3187,7 @@ canvas {
 .site-footer__top-inner {
     position: relative;
     display: block;
-    padding: 236px 0 120px;
+    padding: 100px 0px;
     z-index: 1;
 }
 
@@ -3477,11 +3477,11 @@ canvas {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 35px 0;
+    padding: 10px 0;
 }
 
 .site-footer__bottom-text {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     margin: 0;
     color: #ada8ba;
@@ -3508,7 +3508,7 @@ canvas {
 
 .site-footer__bottom-menu li a {
     color: #ada8ba;
-    font-size: 16px;
+    font-size: 14px;
     display: inline-block;
     transition: all 500ms ease;
 }
@@ -4997,8 +4997,8 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    mix-blend-mode: luminosity;
-    opacity: 0.3;
+    /* mix-blend-mode: luminosity; */
+    opacity: 0.6;
 }
 
 
@@ -6413,6 +6413,7 @@ canvas {
 .contact-details {
     position: relative;
     display: block;
+    
 }
 
 .contact-details__inner {
@@ -6431,8 +6432,8 @@ canvas {
 
 .contact-details__icon {
     position: relative;
-    height: 50px;
-    width: 50px;
+    /* height: 50px;
+    width: 50px; */
     background-color: var(--thm-extra);
     font-size: 20px;
     color: var(--thm-base);
@@ -6443,6 +6444,7 @@ canvas {
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
     z-index: 1;
+    padding: 10px;
 }
 
 .contact-details__icon:before {
