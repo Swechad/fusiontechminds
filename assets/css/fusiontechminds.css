@@ -2523,7 +2523,7 @@ canvas {
     left: 0;
     right: 0;
     height: 100%;
-    background-color: rgb(25, 137, 251);
+    background-color: var(--thm-primary);
     box-shadow: 0px 10px 60px 0px rgb(0, 0, 0, .07);
     transition: all 500ms ease;
     opacity: 1;
@@ -2578,7 +2578,8 @@ canvas {
 
 .project-one__single:hover .project-one__tagline,
 .project-one__single:hover .project-one__title a {
-    color: var(--thm-base);
+    color: #FFF;
+    text-shadow: 0px 0px 5px #00000025;
 }
 
 .project-one__single:hover .project-one__arrow a {
