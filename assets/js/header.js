@@ -75,14 +75,14 @@ const footerContent = ` <div class="site-footer__top">
                                 <span class="icon-telephone"></span>
                             </div>
                             <div class="text">
-                                <p><a href="tel:+91 8008794349">+91 8008794349</a></p>
+                                <p><a href="tel:+91 7981304310">+91 7981304310</a></p>
                             </div>
                         </li>
                     </ul>
                     <div class="footer-widget__about-social mt-5">
                     <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/company/fusion-tech-minds/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 </div>
                 </div>
             </div>
@@ -130,14 +130,14 @@ const mobileNavWrapper =` <div class="mobile-nav__overlay mobile-nav__toggler"><
         </li>
         <li>
             <i class="fa fa-phone-alt"></i>
-            <a href="tel:+91 8008794349">+91 8008794349</a>
+            <a href="tel:+91 7981304310">+91 7981304310</a>
         </li>
     </ul>
     <div class="mobile-nav__top">
         <div class="mobile-nav__social">
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-facebook-square"></a>
-            <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.linkedin.com/company/fusion-tech-minds/" target="_blank" class="fab fa-linkedin"></a>
         </div>
     </div>
 </div>`
